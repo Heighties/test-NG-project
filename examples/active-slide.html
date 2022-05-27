@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Active Slide - fullPage.js</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta
+      name="keywords"
+      content="fullpage,jquery,demo,scroll,loop,continuous"
+    />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+
+    <!--[if IE]>
+      <script type="text/javascript">
+        var console = { log: function () {} };
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <ul id="menu">
+      <li data-menuanchor="secondPage" class="active">
+        <a href="#secondPage">RÉALISATIONS</a>
+      </li>
+      <li data-menuanchor="3rdPage">
+        <a href="#3rdPage">INFOS</a>
+      </li>
+      <li data-menuanchor="4thpage"><a href="#4thpage">CONTACT</a></li>
+    </ul>
+
+    <div id="fullpage">
+      <div class="section" id="section0">
+        <h1>Section 1</h1>
+      </div>
+      <div class="section" id="section1">
+        <div class="infos__container">
+          <div class="infos__container__photo">
+            <img src="./imgs/info_img.jpg" alt="Objectif d'une caméra" />
+          </div>
+          <div class="infos__container__texte">
+            <h2>
+              NIMA <br />
+              GHASHGHAEI
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur, ut! Voluptas repudiandae in veniam rerum quisquam
+              numquam cupiditate at, assumenda aspernatur commodi porro quam
+              ipsum! Distinctio recusandae maiores sunt quis. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Perspiciatis ipsa enim,
+              quos illum ut incidunt blanditiis dolorem molestias quaerat ipsum,
+              harum, nam ea laboriosam possimus sunt reprehenderit animi a
+              similique. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Tenetur, magnam sequi totam cumque minima ipsam ipsa, a est
+              facere quae earum laudantium suscipit non aspernatur. Quidem
+              provident tempora animi facilis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Enim perspiciatis quas at porro
+              consequatur ducimus hic praesentium autem, recusandae numquam quam
+              nesciunt beatae illo tenetur et nam dolor veritatis iste?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+              molestias expedita! Nisi aperiam error, autem similique numquam,
+              aspernatur a alias quisquam, doloribus aut quae quam cum! Totam
+              voluptas placeat fugiat. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Numquam perspiciatis pariatur, ut eaque esse
+              illo consequatur similique amet, cumque alias, suscipit est
+              excepturi? Mollitia, nemo ea? Eum in error quibusdam?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section active" id="section2">
+        <div class="slide" id="slide1">
+          <div class="realisations__container">
+            <div class="realisation-1 realisations__container__picture">
+              <img src="./imgs/realisation-1.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+            <div class="realisation-2 realisations__container__picture">
+              <img src="./imgs/realisation-2.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+            <div class="realisation-3 realisations__container__picture">
+              <img src="./imgs/realisation-3.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+            <div class="realisation-4 realisations__container__picture">
+              <img src="./imgs/realisation-3.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+            <div class="realisation-5 realisations__container__picture">
+              <img src="./imgs/realisation-1.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+            <div class="realisation-6 realisations__container__picture">
+              <img src="./imgs/realisation-2.jpg" alt="" />
+              <div class="realisations__container__picture__title">
+                <h2>Titre</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide active" id="slide2">
+          <div class="intro">
+            <h1>Slide 2.2</h1>
+            <p>
+              We are using the class `active` on this section and in this
+              particular horizontal slide. This way it will appear on the
+              viewport on page load, instead of the 1st section 1st slide.
+            </p>
+            <p>You can apply the same logic to horizontal slides</p>
+          </div>
+        </div>
+        <div class="slide" id="slide3">
+          <h1>Slide 2.3</h1>
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="intro">
+          <h1>Section 3</h1>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../dist/fullpage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+    <script type="text/javascript">
+      var myFullpage = new fullpage("#fullpage", {
+        sectionsColor: [
+          "#1bbc9b",
+          "#4BBFC3",
+          "#7BAABE",
+          "whitesmoke",
+          "#ccddff",
+        ],
+        anchors: ["firstPage", "secondPage", "3rdPage", "4thpage", "lastPage"],
+        menu: "#menu",
+        slidesNavigation: true,
+        lazyLoad: true,
+        credits: { enabled: false },
+      });
+    </script>
+  </body>
+</html>
