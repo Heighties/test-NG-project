@@ -1,4 +1,5 @@
 
+
 .logo__header{
     position: absolute;
     width: 8rem;
@@ -89,6 +90,7 @@
           }
       }
   }
+
 
 
 
@@ -212,3 +214,17 @@
 .btn-close{
     background-color: red;
 }
+
+.section-0{
+    background-color: black;
+    h1{
+        mix-blend-mode: difference;
+    }
+}
+
+.logo__header{
+    background-blend-mode: difference !important;
+}
+// svg{
+//     mix-blend-mode: difference !important;
+// }

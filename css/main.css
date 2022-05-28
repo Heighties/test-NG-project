@@ -226,3 +226,15 @@
 .btn-close {
   background-color: red;
 }
+
+.section-0 {
+  background-color: black;
+}
+
+.section-0 h1 {
+  mix-blend-mode: difference;
+}
+
+.logo__header {
+  background-blend-mode: difference !important;
+}
