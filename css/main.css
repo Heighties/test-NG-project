@@ -1,24 +1,14 @@
 .logo__header {
   position: absolute;
   width: 8rem;
-  display: inline-block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: -116;
   left: 2rem;
   top: 1rem;
   z-index: 100;
 }
 
 .logo__header .logo {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
   width: 100%;
   cursor: pointer;
-  float: left;
-  z-index: 100;
 }
 
 .header__nav {
@@ -124,9 +114,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 60%;
+  width: 70%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slide .realisations__container__picture {
