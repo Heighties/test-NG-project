@@ -48,9 +48,8 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: arial,helvetica;
-	color: #333;
-	color: rgba(0,0,0,0.5);
+	font-family: 'Titillium Web', sans-serif;
+	color: #1d1b1b;
 }
 .wrap{
 	margin-left: auto;
@@ -62,7 +61,7 @@ h1{
 	font-size: 6em;
 }
 p{
-	font-size: 2em;
+	font-size: 1em;
 }
 .intro p{
 	width: 50%;
@@ -71,6 +70,7 @@ p{
 }
 .section{
 	text-align:center;
+	margin-top: -5rem;
 }
 #menu li {
 	display:inline-block;
@@ -85,7 +85,7 @@ p{
 #menu li.active{
 	background:#666;
 	background: rgba(0,0,0, 0.5);
-	color: #fff;
+	color: #1d1b1b;
 }
 #menu li a{
 	text-decoration:none;
@@ -103,7 +103,7 @@ p{
 	display:block;
 }
 #menu li.active a{
-	color: #fff;
+	color: #1d1b1b;
 }
 #menu{
 	position:fixed;
@@ -114,6 +114,8 @@ p{
 	width: 100%;
 	padding: 0;
 	margin:0;
+	display: flex;
+      justify-content: center;
 }
 .twitter-share-button{
 	position: fixed !important;
@@ -233,23 +235,23 @@ p{
 
 /* Extensions preview menu
  * --------------------------------------- */
-.preview-extensions-menu{
+/* .preview-extensions-menu{
 	position: fixed;
     top: 0;
     right: 0;
     z-index: 99;
     border-top: 0;
     box-shadow: 1px 0px 3px rgba(0,0,0,0.8);
-}
-.preview-extensions-menu li{
+} */
+/* .preview-extensions-menu li{
 	display: inline-block;
 	margin: 0;
-}
-.preview-extensions-menu li a{
+} */
+/* .preview-extensions-menu li a{
 	padding: 15px 25px;
 	display: block;
-}
-.preview-buy-extension{
+} */
+/* .preview-buy-extension{
     background: #3cc63c;
 }
 .preview-more-extensions{
@@ -259,11 +261,11 @@ p{
 	color: #fff;
 }
 .preview-buy-extension:hover{
-	background-color: #1a961a;
+	background-color: #1a1c96;
 }
 .preview-more-extensions a{
 	color: #333;
-}
+} */
 
 .code{
 	background: rgba(255,255,255,0.7);
@@ -277,12 +279,12 @@ p{
 h1{
 	font-size: 5em;
 	font-family: arial,helvetica;
-	color: #fff;
+	color: #1d1b1b;
 	margin:0;
 }
 .section p,
 .intro p{
-	color: #fff;
+	color: #1d1b1b;
 }
 
 /* Centered texts in each section
@@ -300,7 +302,7 @@ h1{
 
 /* Sections backgrounds
 * --------------------------------------- */
-#section0{
+/* #section0{
 	background-image: linear-gradient(128deg,#40afff,#3f61ff);
 }
 
@@ -314,4 +316,4 @@ h1{
 
 #section3{
 	background-image: linear-gradient(128deg,#40fff2,#3fbcff);
-}
+} */

@@ -1,19 +1,25 @@
-.header{
-    top: 0;
-    background-color: transparent;
-    z-index: 10;
-    position: sticky;
 
-
+.logo__header{
+    position: relative;
+    width: 8rem;
+    display: inline-block;
+    justify-content: center;
+    content: "";
+    margin: -116;
+    left: 2rem;
+    top: 1rem;
 
     .logo{
         align-self: start;
-        width: 7rem;
+        width: 100%;
         margin: 20px;
         padding-top: 3rem;
         cursor: pointer;
-        
+        // margin: -5rem;
     }
+    }
+        
+    
 
   .header__nav{
     display: flex;
@@ -29,7 +35,7 @@
         
     }
 }
-}
+
 
 .sticky {
     position: fixed;
@@ -73,7 +79,11 @@
           width: 22rem;
           display: flex;
           gap: 10px; 
-          flex-direction: column;     
+          flex-direction: column;  
+          
+          p{
+              color: #1d1b1b;
+          }
       }
   }
 
@@ -92,6 +102,7 @@
           &__picture{
               width: 20rem;
               margin: 20px;
+              cursor: pointer;
 
               img{
                   width: 100%;
