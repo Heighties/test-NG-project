@@ -196,42 +196,125 @@
       <div class="section active" id="section2">
         <div class="slide" id="slide1">
           <div class="realisations__container">
-            <div class="realisation-1 realisations__container__picture">
+            <a
+              class="realisation-1 realisations__container__picture"
+              href="#modal"
+              role="button"
+              data-target="#modal"
+              data-toggle="modal"
+            >
               <img src="./imgs/realisation-1.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
+            </a>
+            <div class="modal" id="modal" role="dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-close" data-dismiss="dialog">X</div>
+                  <p>Titre de la modale 1</p>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates excepturi sint, veritatis officia laborum
+                  temporibus. Beatae neque reprehenderit ipsum numquam facilis
+                  repudiandae iste explicabo voluptatum corrupti harum. Sunt,
+                  asperiores.
+                </div>
+              </div>
             </div>
-            <div class="realisation-2 realisations__container__picture">
+            <a
+              class="realisation-2 realisations__container__picture"
+              href="#"
+              role="button"
+              data-target="#modal2"
+              data-toggle="modal"
+            >
               <img src="./imgs/realisation-2.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
+            </a>
+            <div class="modal" id="modal2" role="dialog">
+              <div class="modal-content">
+                <div class="modal-close" data-dismiss="dialog">X</div>
+                <div class="modal-header">
+                  <p>Titre de la modale 2</p>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates excepturi sint, veritatis officia laborum
+                  temporibus. Beatae neque reprehenderit ipsum numquam facilis
+                  repudiandae iste explicabo voluptatum corrupti harum. Sunt,
+                  asperiores.
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="#"
+                    class="btn btn-close"
+                    role="button"
+                    data-dismiss="dialog"
+                    >Fermer</a
+                  >
+                  <a href="#" class="btn" role="button">Valider</a>
+                </div>
+              </div>
             </div>
-            <div class="realisation-3 realisations__container__picture">
+            <a
+              class="realisation-3 realisations__container__picture"
+              href="#"
+              role="button"
+              data-target="#modal3"
+              data-toggle="modal"
+            >
               <img src="./imgs/realisation-3.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
+            </a>
+            <div class="modal" id="modal3" role="dialog">
+              <div class="modal-content">
+                <div class="modal-close" data-dismiss="dialog">X</div>
+                <div class="modal-header">
+                  <p>Titre de la modale 3</p>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam voluptates excepturi sint, veritatis officia laborum
+                  temporibus. Beatae neque reprehenderit ipsum numquam facilis
+                  repudiandae iste explicabo voluptatum corrupti harum. Sunt,
+                  asperiores.
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="#"
+                    class="btn btn-close"
+                    role="button"
+                    data-dismiss="dialog"
+                    >Fermer</a
+                  >
+                  <a href="#" class="btn" role="button">Valider</a>
+                </div>
+              </div>
             </div>
-            <div class="realisation-4 realisations__container__picture">
+            <a class="realisation-4 realisations__container__picture">
               <img src="./imgs/realisation-3.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
-            </div>
-            <div class="realisation-5 realisations__container__picture">
+            </a>
+            <a class="realisation-5 realisations__container__picture">
               <img src="./imgs/realisation-1.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
-            </div>
-            <div class="realisation-6 realisations__container__picture">
+            </a>
+            <a class="realisation-6 realisations__container__picture">
               <img src="./imgs/realisation-2.jpg" alt="" />
               <div class="realisations__container__picture__title">
                 <h2>Titre</h2>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="slide active" id="slide2">
@@ -315,6 +398,7 @@
           </div>
         </div>
       </div>
+
       <div class="section" id="section3">
         <div class="intro">
           <h1>Section 3</h1>
@@ -323,7 +407,7 @@
     </div>
 
     <script type="text/javascript" src="../dist/fullpage.js"></script>
-    <script type="text/javascript" src="examples.js"></script>
+    <script type="text/javascript" src="examples.js" defer></script>
     <script type="text/javascript">
       var myFullpage = new fullpage("#fullpage", {
         // sectionsColor: [
