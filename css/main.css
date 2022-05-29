@@ -1,4 +1,10 @@
 .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
 }
 
@@ -79,10 +85,22 @@ svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .infos__container__texte p {
   color: #1d1b1b;
+}
+
+.section-1 .infos__container .infos__container__texte h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-1 .infos__container .infos__container__texte .lastName {
+  margin-top: -20px;
 }
 
 .slide {

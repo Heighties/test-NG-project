@@ -1,5 +1,7 @@
 
 .section{
+    display: flex;
+    align-items: center;
     background-color: white;
 }
 svg{
@@ -87,7 +89,8 @@ svg{
           width: 22rem;
           display: flex;
           gap: 10px; 
-          flex-direction: column;  
+          flex-direction: column;
+          justify-content: left;  
           
           p{
               color: #1d1b1b;
@@ -95,7 +98,22 @@ svg{
       }
   }
 
+.section-1{
+    .infos__container{
+        .infos__container__photo{
 
+        }
+        .infos__container__texte{
+            h2{
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .lastName{
+                margin-top: -20px;
+            }
+        }
+    }
+}
 
 
   .slide{
