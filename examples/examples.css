@@ -74,30 +74,38 @@ p{
 .section{
 	text-align:center;
 }
+#menu{
+	color: white;
+	mix-blend-mode: difference;
+}
 #menu li {
 	display:inline-block;
 	align-self: center;
 	margin: 10px;
-	color: #000;
-	background:#fff;
+	color: white;
+	mix-blend-mode: difference;
+	/* color: #000; */
+	/* background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
-            border-radius: 10px;
+            border-radius: 10px; */
 }
 #menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
-	color: #1d1b1b;
+	/* background:#666;
+	background: rgba(0,0,0, 0.5); */
+	color: white;
+	mix-blend-mode: difference;
 }
 #menu li a{
 	text-decoration:none;
-	color: #000;
+	color: white;
+	mix-blend-mode: difference;
 }
 #menu li.active a:hover{
-	color: #000;
+	/* color: #000; */
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	/* background: rgba(255,255,255, 0.8); */
 }
 #menu li a,
 #menu li.active a{
@@ -105,7 +113,7 @@ p{
 	display:block;
 }
 #menu li.active a{
-	color: #1d1b1b;
+	/* color: #1d1b1b; */
 }
 #menu{
 	position:fixed;
@@ -197,43 +205,8 @@ p{
 
 
 /* Demos Menu
- * --------------------------------------- */
- #demosMenu{
-	position:fixed;
-	top: 20px;
-	right:20px;
-	z-index: 999;
-	padding: 5px 10px;
- }
 
 /* Buttons
- * --------------------------------------- */
-#download a{
-    text-decoration: none
-}
-#download,
-#download:hover {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
-}
-.button {
-    margin: 20px 0 0 0;
-    vertical-align: middle;
-    display: inline-block
-}
-
-.button a {
-    color: #fff;
-    background: rgba(0,0,0,0.4);
-    padding: 15px 30px;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.button a:hover {
-    color: #316f68;
-    background-color: #fff
-}
-
 
 /* Extensions preview menu
  * --------------------------------------- */
@@ -269,11 +242,11 @@ p{
 	color: #333;
 } */
 
-.code{
+/* .code{
 	background: rgba(255,255,255,0.7);
 	padding: 0px 5px;
 	line-height: 25px;
-}
+} */
 
 
 /* Style for our header texts

@@ -1,14 +1,15 @@
-.logo__header {
+.section {
+  background-color: white;
+}
+
+svg {
   position: absolute;
   width: 8rem;
   left: 2rem;
   top: 1rem;
   z-index: 100;
-}
-
-.logo__header .logo {
-  width: 100%;
-  cursor: pointer;
+  fill: white;
+  mix-blend-mode: difference;
 }
 
 .header__nav {
@@ -228,15 +229,10 @@
 }
 
 .section-0 {
-  background-color: #1d1b1b;
+  background-color: black;
 }
 
 .section-0 h1 {
-  mix-blend-mode: difference;
-}
-
-.cls-1 {
-  stroke: black;
-  fill: transparent;
+  color: black;
   mix-blend-mode: difference;
 }
