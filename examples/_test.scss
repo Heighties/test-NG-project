@@ -144,9 +144,10 @@ svg{
             margin-right: auto;
   
             &__picture{
-                width: 20rem;
+                width: 17rem;
                 margin: 20px;
                 cursor: pointer;
+                
   
                 img{
                     width: 100%;
@@ -222,6 +223,7 @@ svg{
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
+    z-index: 100;
    
 }
 

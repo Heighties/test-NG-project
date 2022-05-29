@@ -185,7 +185,7 @@ svg {
 }
 
 .slide .realisations__container__picture {
-  width: 20rem;
+  width: 17rem;
   margin: 20px;
   cursor: pointer;
 }
@@ -263,6 +263,7 @@ svg {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
+  z-index: 100;
 }
 
 .modal-header {
