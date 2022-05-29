@@ -163,7 +163,8 @@ svg {
 
 .slide .realisations__container__picture__title h2 {
   font-size: 25px;
-  padding: 0px 0px 0px 15px;
+  font-weight: bold;
+  padding: 8px 0px 0px 20px;
 }
 
 .slide .realisations__container a {
