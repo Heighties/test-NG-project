@@ -66,6 +66,7 @@ svg {
 
 .section-1 .infos__container__photo {
   width: 25rem;
+  z-index: 10;
 }
 
 .section-1 .infos__container__photo img {
@@ -94,6 +95,12 @@ svg {
 
 .section-1 .infos__container__texte .lastName {
   margin-top: -20px;
+}
+
+.section-1 .infos__container__texte .decoration__line {
+  border-top: solid 5px;
+  width: 34rem;
+  margin-left: -12rem;
 }
 
 .section-1 .infos__container__texte p {
@@ -148,9 +155,10 @@ svg {
 }
 
 .slide .realisations__container__picture__title {
-  border-left: solid;
+  border-left: solid 5px;
   margin-top: -6px;
-  height: 30px;
+  height: 50px;
+  text-align: start;
 }
 
 .slide .realisations__container__picture__title h2 {
