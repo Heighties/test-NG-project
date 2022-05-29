@@ -114,6 +114,7 @@ p{
 }
 #menu li.active a{
 	/* color: #1d1b1b; */
+	text-decoration: underline;
 }
 #menu{
 	position:fixed;
