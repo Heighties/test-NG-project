@@ -51,31 +51,28 @@ svg {
           justify-content: center;
 }
 
-.infos__container {
+.section-1 .infos__container {
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 20rem;
+  gap: 12rem;
 }
 
-.infos__container__photo {
+.section-1 .infos__container__photo {
   width: 25rem;
 }
 
-.infos__container__photo img {
+.section-1 .infos__container__photo img {
   width: 100%;
 }
 
-.infos__container__texte {
+.section-1 .infos__container__texte {
   width: 22rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,17 +87,17 @@ svg {
           justify-content: left;
 }
 
-.infos__container__texte p {
-  color: #1d1b1b;
-}
-
-.section-1 .infos__container .infos__container__texte h2 {
+.section-1 .infos__container__texte h2 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.section-1 .infos__container .infos__container__texte .lastName {
+.section-1 .infos__container__texte .lastName {
   margin-top: -20px;
+}
+
+.section-1 .infos__container__texte p {
+  color: #1d1b1b;
 }
 
 .slide {
