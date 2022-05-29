@@ -228,13 +228,15 @@
 }
 
 .section-0 {
-  background-color: black;
+  background-color: #1d1b1b;
 }
 
 .section-0 h1 {
   mix-blend-mode: difference;
 }
 
-.logo__header {
-  background-blend-mode: difference !important;
+.cls-1 {
+  stroke: black;
+  fill: transparent;
+  mix-blend-mode: difference;
 }
