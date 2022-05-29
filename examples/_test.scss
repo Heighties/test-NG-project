@@ -202,7 +202,7 @@ svg{
     display: flex;
     flex-direction: column;
     // background-color: rgb(152, 152, 153);
-    width: 70%;
+    width: 50%;
     height: 85%;
     margin: auto;
     // flex: 1;
@@ -218,15 +218,16 @@ svg{
     padding-right: 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    position: fixed;
+    color: white;
+   
 }
 
 .modal-header{
-    padding-left: 10px;
-    border-bottom: 1px solid #ddd;
+    
     height: 70%;
     display: flex;
     justify-content: flex-start;
+    background-color: black;
 
     .modal__video{
    
@@ -241,11 +242,12 @@ svg{
 
 .modal-body{
     // padding: 10px;
-    border-top: 1px solid #ddd;
     border-left: 5px solid black;
     text-align: start;
     height: 30%;
     overflow-y: auto;
+    // margin-left: 10.25rem;
+    // margin-right: 10rem;
 
     h2{
         font-size: 2rem;
