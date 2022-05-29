@@ -60,11 +60,16 @@
 }
 
 .section-0 {
-  background-color: #1d1b1b;
+  background-color: black;
 }
 
 .section-0 h1 {
   color: white;
+}
+
+.section-0 .showreel {
+  width: 100%;
+  height: 100vh;
 }
 
 svg {
@@ -75,10 +80,6 @@ svg {
   z-index: 100;
   fill: white;
   mix-blend-mode: difference;
-}
-
-.showreel {
-  top: 0;
 }
 
 .infos {
