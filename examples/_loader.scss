@@ -1,0 +1,37 @@
+.loader {
+    background-color: #1d1b1b;
+    opacity: 1;
+    height: 100vh;
+    inset: 0;
+    position: fixed;
+    z-index: 10000;
+    animation: disappear 200ms 2s forwards;
+    
+    &__logo{
+        box-sizing: border-box;
+        height: 20vmin;
+        left: calc(50% - 10vmin);
+        position: fixed;
+        top: calc(50% - 10vmin);
+        width: 20vmin;
+    }
+  }
+  
+
+  
+  @keyframes disappear {
+    0% {
+      opacity: 1;
+      z-index: 10;
+    }
+  
+    99% {
+      opacity: 0;
+      z-index: 10;
+    }
+  
+    100% {
+      opacity: 0;
+      z-index: -1;
+    }
+  }

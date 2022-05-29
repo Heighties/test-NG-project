@@ -1,3 +1,54 @@
+.loader {
+  background-color: #1d1b1b;
+  opacity: 1;
+  height: 100vh;
+  inset: 0;
+  position: fixed;
+  z-index: 10000;
+  -webkit-animation: disappear 200ms 2s forwards;
+          animation: disappear 200ms 2s forwards;
+}
+
+.loader__logo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 20vmin;
+  left: calc(50% - 10vmin);
+  position: fixed;
+  top: calc(50% - 10vmin);
+  width: 20vmin;
+}
+
+@-webkit-keyframes disappear {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  99% {
+    opacity: 0;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  99% {
+    opacity: 0;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,26 +75,6 @@ svg {
   z-index: 100;
   fill: white;
   mix-blend-mode: difference;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  height: 60px;
-  margin-top: -13rem;
-}
-
-.header__nav a {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding: 0 0 0 50px;
-  font-size: 20px;
 }
 
 .showreel {

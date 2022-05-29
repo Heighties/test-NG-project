@@ -81,6 +81,7 @@ p{
 #menu{
 	color: white;
 	mix-blend-mode: difference;
+	gap: 5rem;
 }
 #menu li {
 	display:inline-block;
