@@ -1,6 +1,3 @@
-/* @CHARSET "ISO-8859-1"; */
-/* Reset CSS
- * --------------------------------------- */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
@@ -38,8 +35,6 @@ h1,h2,h3,h4,h5,h6 {
     margin:0;
     padding:0;
 	color: #1d1b1b;
-    /* color:black;
-	mix-blend-mode: difference; */
 }
 q:before,q:after {
     content:'';
@@ -48,8 +43,6 @@ abbr,acronym { border: 0;
 }
 
 
-/* Custom CSS
- * --------------------------------------- */
 body{
 	font-family: 'Titillium Web', sans-serif;
 	color: #1d1b1b;
@@ -89,15 +82,8 @@ p{
 	margin: 10px;
 	color: white;
 	mix-blend-mode: difference;
-	/* color: #000; */
-	/* background:#fff;
-	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px;
-            border-radius: 10px; */
 }
 #menu li.active{
-	/* background:#666;
-	background: rgba(0,0,0, 0.5); */
 	color: white;
 	mix-blend-mode: difference;
 }
@@ -118,7 +104,6 @@ p{
 	display:block;
 }
 #menu li.active a{
-	/* color: #1d1b1b; */
 	text-decoration: underline;
 }
 #menu{
