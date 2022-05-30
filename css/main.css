@@ -314,10 +314,42 @@ svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 10rem;
+    width: 100%;
   }
   .section-1 .infos__container__photo {
-    height: 5rem;
-    width: 5rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: -5rem;
+  }
+  .section-1 .infos__container__photo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+  }
+  .section-1 .infos__container__texte {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 65%;
+    font-size: 1.7rem;
+  }
+  .section-1 .infos__container__texte .firstName {
+    font-size: 4rem;
+  }
+  .section-1 .infos__container__texte .lastName {
+    font-size: 4rem;
+    margin-top: -40px;
   }
   .section-2 .realisations__container {
     width: 80%;
