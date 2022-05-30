@@ -1,0 +1,25 @@
+@media (max-width: 990px){
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    .infos__container{
+        display: flex;
+        flex-direction: column;
+
+        &__photo{
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+}
+
+.section-2{
+    .realisations__container{
+        width: 80%;
+        height: 80%;
+        &__picture{
+            width: 20rem;
+        }
+    }
+}
+}
