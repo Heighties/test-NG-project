@@ -1,3 +1,23 @@
+.hamburger{
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    width: 20rem;
+    z-index: 99;
+    padding-left: 45rem;
+    padding-top: 1rem;
+}
+
+.bar{
+    display: block;
+    width: 60px;
+    height: 10px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: black;
+    mix-blend-mode: difference;
+}
+
 .section{
     display: flex;
     align-items: center;
