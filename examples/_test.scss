@@ -10,10 +10,10 @@
 
 .bar{
     display: block;
-    width: 60px;
+    // width: 10rem;
     height: 10px;
     margin: 10px auto;
-    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: black;
     mix-blend-mode: difference;
 }
@@ -44,13 +44,13 @@ svg{
     z-index: 100;
     fill: white;
     mix-blend-mode: difference;
-    }
+ }
 
 
   .infos{
       display: flex;
       justify-content: center;
-  }
+}
 
 
 .section-1{
@@ -96,8 +96,7 @@ svg{
     }
 }
 
-
-  .slide{
+.slide{
       display: flex;
       justify-content: center;
 

@@ -61,10 +61,10 @@
 
 .bar {
   display: block;
-  width: 60px;
   height: 10px;
   margin: 10px auto;
   -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: black;
   mix-blend-mode: difference;
 }
@@ -416,5 +416,19 @@ svg {
   }
   .section-2 .realisations__container__picture {
     width: 20rem;
+  }
+  .modal-content {
+    width: 90%;
+    margin-top: 10rem;
+  }
+  .modal-header {
+    height: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background-color: black;
   }
 }
