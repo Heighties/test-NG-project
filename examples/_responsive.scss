@@ -31,8 +31,8 @@
     #menu{
         display: flex;
         position:fixed;
-        left: -100%;
-        top: 0;
+        left: 0;
+        top: -100%;
         gap: 10;
         flex-direction: column;
         background-color: rgba(29, 27, 27, 1);
@@ -49,7 +49,7 @@
     }
 
     #menu.active{
-        left: 0;
+        top: 0;
     }
 
     .section-1{
