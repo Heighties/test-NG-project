@@ -1,0 +1,121 @@
+// Menu borders tests : 
+
+// #menu li a:before{
+//     content: '';
+//     position: absolute;
+//     top : -2px;
+//     left :-2px;
+//     height: 0;
+//     width: 0;
+//     background: transparent;
+//     border: 2px solid transparent;
+// }
+  
+// #menu li a:hover:before{
+//     animation: animate 0.5s linear reverse ;
+// }
+  
+// @keyframes animate {
+//  0%{
+//       width: 0;
+//       height: 0;
+//       border-top-color: transparent;
+//       border-right-color: transparent;
+//       border-bottom-color: transparent;
+//       border-left-color: transparent;
+//     }
+    
+//      50%{
+//       width: 0%;
+//       height: 100%;
+//       border-top-color: white;
+//       border-right-color: transparent;
+//       border-bottom-color: transparent;
+//       border-left-color: transparent;
+//     }
+    
+//      100%{
+//       width: 100%;
+//       height: 100%;
+//       border-top-color: white;
+//       border-right-color: transparent;
+//       border-bottom-color: transparent;
+//       border-left-color: transparent;
+//     }
+// }
+  
+// #menu li a:after{
+//     content: '';
+//     position: absolute;
+//     top : -2px;
+//     left :-2px;
+//     height: 0;
+//     width: 0;
+//     background: transparent;
+//     border: 2px solid transparent;
+// }
+  
+// #menu li a:hover:after{
+//     animation: animate2 0.5s linear forwards;
+// }
+  
+//   @keyframes animate2 {
+//     0%{
+//       width: 0;
+//       height: 0;
+//       border-top-color: transparent;
+//       border-right-color: transparent;
+//       border-bottom-color: transparent;
+//       border-left-color: white;
+//     }
+    
+//      50%{
+//       width: 0;
+//       height: 100%;
+//       border-top-color: transparent;
+//       border-right-color: transparent;
+//       border-bottom-color: white;
+//       border-left-color: white;
+//     }
+    
+//      100%{
+//       width: 100%;
+//       height: 100%;
+//       border-top-color: transparent;
+//       border-right-color: transparent;
+//       border-bottom-color: white;
+//       border-left-color: white;
+//     }
+// }
+
+
+// #menu li a{
+//     position: relative;
+    // top : -2px;
+    // left :-2px;
+    // height: 0;
+    // width: 0;
+    // background: transparent;
+    // border: 2px solid transparent;
+// }
+
+// #menu li a:hover{
+//     animation: animate linear 0.1s forwards;
+// }
+
+// @keyframes animate{
+//     0%{
+//         width: 0%;
+//         border-bottom: solid 3px white;
+//     }
+
+//     50%{
+//         width: 0%;
+//         border-bottom: solid 3px white;
+//     }
+
+//     100%{
+//         width: 100%;
+//         border-bottom: solid 3px white;
+//     }
+// }
