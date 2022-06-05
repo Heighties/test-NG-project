@@ -1,0 +1,49 @@
+#toggle{
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 30px;
+    border-radius: 160px;
+    background: white;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+                inset 0 2px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 8px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+    right: 20px;
+    top: 20px;
+}
+
+#toggle.active-2{
+    background: #222;
+    box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+                inset 0 8px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 4px rgba(0, 0, 0, 0.1);           
+}
+
+#toggle .indicator{
+    position: absolute;
+    top:  0;
+    left: 0;
+    width: 30px;
+    height:  30px;
+    background: linear-gradient(to bottom #eaeaea, #f9f9f9);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: inset 0 8px 40px rgba(0, 0, 0, 0.5),
+                inset 0 4px 4px rgba(255, 255, 255, 0.2),
+                inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+}
+
+#toggle.active-2 .indicator{
+    left: 30px;
+    background: linear-gradient(to bottom #444, #222);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+                inset 0 4px 4px rgba(255, 255, 255, 0.2);
+}
+
+body.active-2{
+    background-color: black;
+}

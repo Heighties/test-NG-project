@@ -23,8 +23,13 @@
 .section{
     display: flex;
     align-items: center;
-    background-color: white;
+    // background-color: white;
+    transition: 0.5s;
+    background-color: transparent;
 }
+
+
+
 .section-0{
     background-color: black;
     
@@ -144,7 +149,6 @@ svg{
             a {
                 text-decoration: none;
                 padding: 15px;
-                background-color: white;
                 border-radius: 5px;
                 text-transform: uppercase;
                 color: black;

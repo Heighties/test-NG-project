@@ -57,3 +57,13 @@ document.querySelectorAll(".nav-link").forEach(n => n.
        hamburger.classList.remove("active");
        menu.classList.remove("active");  
     }))
+
+
+//TOGGLE DARK MODE
+
+const body = document.querySelector('body');
+const toggle = document.getElementById('toggle');
+toggle.onclick = function(){
+    toggle.classList.toggle('active-2');
+    body.classList.toggle('active-2');
+}

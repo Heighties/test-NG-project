@@ -111,6 +111,7 @@ abbr, acronym {
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #1d1b1b;
+  background-color: white;
 }
 
 .wrap {
@@ -132,6 +133,58 @@ p {
   width: 50%;
   margin: 0 auto;
   font-size: 1.5em;
+}
+
+#toggle {
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 30px;
+  border-radius: 160px;
+  background: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1), inset 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1), inset 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 8px rgba(0, 0, 0, 0.05);
+  z-index: 100;
+  right: 20px;
+  top: 20px;
+}
+
+#toggle.active-2 {
+  background: #222;
+  -webkit-box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1), inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1), inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#toggle .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: -webkit-gradient(linear, bottom #eaeaea, from(#f9f9f9));
+  background: linear-gradient(to bottom #eaeaea, #f9f9f9);
+  border-radius: 50%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: inset 0 8px 40px rgba(0, 0, 0, 0.5), inset 0 4px 4px rgba(255, 255, 255, 0.2), inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+          box-shadow: inset 0 8px 40px rgba(0, 0, 0, 0.5), inset 0 4px 4px rgba(255, 255, 255, 0.2), inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#toggle.active-2 .indicator {
+  left: 30px;
+  background: -webkit-gradient(linear, bottom #444, from(#222));
+  background: linear-gradient(to bottom #444, #222);
+  -webkit-box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), inset 0 4px 4px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), inset 0 4px 4px rgba(255, 255, 255, 0.2);
+}
+
+body.active-2 {
+  background-color: black;
 }
 
 .hamburger {
@@ -160,7 +213,9 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
 }
 
 .section-0 {
@@ -316,7 +371,6 @@ svg {
 .slide .realisations__container a {
   text-decoration: none;
   padding: 15px;
-  background-color: white;
   border-radius: 5px;
   text-transform: uppercase;
   color: black;
