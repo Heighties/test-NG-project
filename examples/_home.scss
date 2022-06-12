@@ -106,13 +106,11 @@ svg{
 .slide{
       display: flex;
       justify-content: center;
-
-      .realisations{
-        display: flex;
-        justify-content: center;
-        width: 5rem;
   
-        &__container{
+
+      
+  
+        .realisations__container{
             align-self: center;
             display: flex;
             flex-wrap: wrap;
@@ -121,6 +119,7 @@ svg{
             justify-content: space-around;
             margin-left: auto;
             margin-right: auto;
+
   
             &__picture{
                 width: 17rem;
@@ -155,7 +154,7 @@ svg{
               }
         }
     }
-  }
+  
 
   .modal{
     background-color: white;
